@@ -1,6 +1,5 @@
 package com.study.ecommerce.entity;
 
-import com.study.ecommerce.entity.Product;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,7 +7,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name="product_category")
+@Table(name = "product_category")
 // @Data -- known bug
 @Getter
 @Setter
